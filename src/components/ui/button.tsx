@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 type PrimaryButtonProps = {
   text: string;
@@ -11,7 +11,7 @@ type PrimaryButtonProps = {
 const PrimaryButton: React.FC<PrimaryButtonProps> = ({
   text,
   onClick,
-  className = '',
+  className = "",
   showArrow = true,
 }) => {
   return (
@@ -23,7 +23,14 @@ const PrimaryButton: React.FC<PrimaryButtonProps> = ({
         {text}
       </span>
       {showArrow && (
-        <Image src="/arrowIcon.png" alt='left arrow' width={6} height={12}/>
+        <Image
+          src="/arrowIcon.png"
+          alt="left arrow"
+          width={6}
+          height={12}
+          priority
+          unoptimized
+        />
       )}
     </button>
   );
