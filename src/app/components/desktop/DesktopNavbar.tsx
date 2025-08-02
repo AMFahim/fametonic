@@ -6,7 +6,14 @@ const Navbar = () => {
   return (
     <DesktopContainer>
       <div className="flex justify-between mt-[35px]">
-        <Image src="/logo.png" alt="Logo" width={173.2} height={74} />
+        <Image
+          src="/logo.png"
+          alt="Logo"
+          width={173}
+          height={74}
+          priority
+          unoptimized
+        />
         <div className="flex gap-10">
           <span className="w-20 text-center justify-center text-neutral-400 text-lg font-semibold font-family-figtree">
             About us

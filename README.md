@@ -4,14 +4,6 @@
 
 Fametonic is a modern web application designed to help aspiring influencers turn their social media presence into a profitable career. Built with Next.js and modern web technologies, it provides tools, courses, and AI-powered assistance to grow social media influence.
 
-## 🚀 Features
-
-- **Responsive Design**: Fully responsive interface that works seamlessly across desktop, tablet, and mobile devices
-- **Modern UI/UX**: Clean, contemporary design with smooth animations and interactive elements
-- **Personal AI Worker**: AI-powered content assistance for social media optimization
-- **Expert-Led Courses**: Comprehensive learning materials for aspiring influencers
-- **Step-by-Step Tutorials**: Easy-to-follow lessons for creating viral content
-- **Personalized Insights**: Custom recommendations based on user preferences
 
 ## 🛠️ Tech Stack
 

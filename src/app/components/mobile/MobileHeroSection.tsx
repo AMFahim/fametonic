@@ -11,8 +11,10 @@ const MobileHeroSection = () => {
           src="/smLogo.png"
           alt="logo"
           width={108}
-          height={46} 
+          height={46}
           className="h-[46px] w-auto"
+          priority
+          unoptimized
         />
         <Image
           src="/menu.png"
@@ -20,6 +22,8 @@ const MobileHeroSection = () => {
           width={20}
           height={12}
           className="h-[12px] w-auto"
+          priority
+          unoptimized
         />
       </div>
       <Image
@@ -28,6 +32,8 @@ const MobileHeroSection = () => {
         width={384}
         height={384}
         className="w-full h-[384px] object-cover mt-4"
+        priority
+        unoptimized
       />
       <h1 className="self-stretch text-center justify-center text-white text-2xl font-extrabold font-family-urbanist">
         Want to Turn Social Media Into a Profitable Career?{" "}
@@ -43,15 +49,15 @@ const MobileHeroSection = () => {
         lessons
       </p>
       <p className="self-stretch justify-center text-white text-base font-medium font-family-figtree leading-snug mt-[10px]">
-      ✨  Use a Personal AI Worker to boost your content{" "}
+        ✨ Use a Personal AI Worker to boost your content{" "}
       </p>
       <p className="self-stretch justify-center text-white text-base font-medium font-family-figtree leading-snug mt-[10px]">
-       ✨ Learn from expert-led courses designed for aspiring influencers{" "}
+        ✨ Learn from expert-led courses designed for aspiring influencers{" "}
       </p>
       <div className="w-[281px] text-center mx-auto">
         <p className="self-stretch text-center justify-center text-neutral-400 text-xs font-medium font-family-figtree mt-[22px]">
-          By clicking &quot;Get Started&quot;, you agree with Terms and Conditions,
-          Privacy Policy, Subscription Terms
+          By clicking &quot;Get Started&quot;, you agree with Terms and
+          Conditions, Privacy Policy, Subscription Terms
         </p>
         <p className="self-stretch text-center justify-center text-neutral-400 text-[10px] font-medium font-['Nunito'] mt-[19px]">
           Fametonic 2025 ©All Rights Reserved.
@@ -59,7 +65,9 @@ const MobileHeroSection = () => {
       </div>
       <div>
         <PrimaryButton text="GET STARTED" className="w-full mt-10" />
-        <div className="self-stretch text-center justify-center text-white text-xs font-normal font-family-figtree leading-none mt-[10px] mb-10">1-minute quiz for personalized Insights</div>
+        <div className="self-stretch text-center justify-center text-white text-xs font-normal font-family-figtree leading-none mt-[10px] mb-10">
+          1-minute quiz for personalized Insights
+        </div>
       </div>
     </MobileContainer>
   );
